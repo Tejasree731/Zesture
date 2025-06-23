@@ -41,7 +41,7 @@ A Python-based project that lets you control YouTube, Spotify, and system media 
 
 
 ##  Project Structure
-
+```md
 Zesture/
 │
 ├── main.py # Main app entry point

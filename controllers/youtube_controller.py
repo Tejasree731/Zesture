@@ -1,6 +1,6 @@
 import pyautogui
 
-
+#control youtube
 def handle_youtube_gesture(fingers):
     if fingers == [0, 1, 0, 0, 0]:
         pyautogui.press('space')

@@ -41,36 +41,38 @@ A Python-based project that lets you control YouTube, Spotify, and system media 
 
 
 ##  Project Structure
-```md
+
+```
 Zesture/
 │
-├── main.py # Main app entry point
+├── main.py                  # Main app entry point
 ├── README.md
 ├── requirements.txt
+│
 ├── config/
-│ └── gesture_config.py # Config settings (window size, cooldowns)
+│   └── gesture_config.py    # Config settings (window size, cooldowns)
 │
 ├── core/
-│ ├── gesture_manager.py # Routes gestures to correct media handler
-│ └── mode_manager.py # Tracks and updates current mode
+│   ├── gesture_manager.py   # Routes gestures to correct media handler
+│   └── mode_manager.py      # Tracks and updates current mode
 │
 ├── controllers/
-│ ├── youtube_controller.py # Gesture actions for YouTube
-│ ├── spotify_controller.py # Gesture actions for Spotify
-│ └── system_controller.py # Gesture actions for system media
+│   ├── youtube_controller.py  # Gesture actions for YouTube
+│   ├── spotify_controller.py  # Gesture actions for Spotify
+│   └── system_controller.py   # Gesture actions for system media
 │
 ├── detectors/
-│ └── gesture_detector.py # MediaPipe-based hand tracker
+│   └── gesture_detector.py  # MediaPipe-based hand tracker
 │
 ├── logs/
-│ └── gesture_log.py # gesture logging
+│   └── gesture_log.py       # Gesture logging
 │
 └── utils/
-├── gestures.png # Gestures List
-├── always_on_top.py # Makes OpenCV window topmost
-└── window_utils.py # Snaps browser to right, video to left
+    ├── gestures.png         # Gestures List
+    ├── always_on_top.py     # Makes OpenCV window topmost
+    └── window_utils.py      # Snaps browser to right, video to left
+```
 
-<br/>
 
 ```md
 ##  Requirements

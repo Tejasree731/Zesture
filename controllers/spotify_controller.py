@@ -1,5 +1,6 @@
 import pyautogui
 
+#control spotify
 def handle_spotify_gesture(fingers):
     if fingers == [0, 1, 0, 0, 0]:
         pyautogui.press('playpause')

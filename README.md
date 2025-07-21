@@ -79,7 +79,7 @@ Zesture/
 
 Install required packages:
 
-```bash
+
 pip install opencv-python mediapipe pyautogui pygetwindow
 Note: On Windows, make sure your webcam and hotkey permissions are enabled.
 
